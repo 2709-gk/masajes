@@ -1,0 +1,155 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GK Terapias - Gastón Kellogg</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #4caf50;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #345;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .cta {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .cta a {
+            display: inline-block;
+            background-color: #4caf50;
+            color: BEIGE;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+        .cta a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GK Terapias - Gastón Kellogg</h1>
+        <p>Tu bienestar, nuestra prioridad</p>
+    </header>
+
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Relájate, renueva tu energía y vive en equilibrio</h2>
+    </section>
+
+    <div class="container">
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Masaje Descontracturante</h3>
+                    <p>Libera la tensión muscular y alivia el estrés con nuestras técnicas especializadas.</p>
+                    <p><strong>Precio: $900</strong></p>
+                </div>
+                <div class="service">
+                    <h3>Barras de Access</h3>
+                    <p>Conecta con tu energía interior y desbloquea tu potencial con esta poderosa terapia energética.</p>
+                </div>
+                <div class="service">
+                    <h3>Reflexología</h3>
+                    <p>Mejora tu bienestar general mediante la estimulación de puntos reflejos en los pies.</p>
+                    <p><strong>Precio: $900</strong></p>
+                </div>
+                <div class="service">
+                    <h3>Drenaje Linfático</h3>
+                    <p>Estimula tu sistema linfático para reducir la inflamación y mejorar la circulación.</p>
+                    <p><strong>Precio: $900</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>En GK Terapias, nuestra misión es ayudarte a encontrar equilibrio y bienestar a través de técnicas profesionales y un enfoque personalizado. Creemos en el poder de la conexión mente-cuerpo y en la importancia de cuidar tu energía.</p>
+        </section>
+
+        <div class="cta">
+            <a href="#contacto">Reserva tu sesión ahora</a>
+        </div>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas o quieres reservar una sesión? Contáctanos:</p>
+            <ul>
+                <li><strong>Teléfono:</strong> 098921204</li>
+                <li><strong>Email:</strong> contacto@gkterapias.com</li>
+                <li><strong>Dirección:</strong> Gabriel Pereira 2969, Montevideo</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GK Terapias - Gastón Kellogg. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
